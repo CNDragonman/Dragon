@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'pip install python3'
+        sh 'echo "welcome"'
       }
     }
 
